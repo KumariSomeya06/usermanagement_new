@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        User Management
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="heading">
+        <h1>
+            <center>USER MANAGEMENT</center>
+        </h1>
+    </div>
+    <div class="container">
+
+        <form id="firstform">
+            <label id="label" for="search">Search user</label><br>
+            <input type="text" placeholder=" Search...." name="search">
+            <button type="button">Search</button>
+        </form>
+
+        <hr>
+        <div class="btn1">
+            <button id="showUserButton">Show Users</button>
+        </div>
+        <div class="employee-details" id="employee-details">
+
+        </div>
+        </hr>
+        <div class="btn2">
+            <button id="addUserButton">Add User</button>
+        </div>
+
+        <br />
+        <div class="employee-form" id="employee-form">
+            <form autocomplete="off" id="addUserForm" class="form-hidden">
+
+                <div>
+                    <label>Full Name*</label>
+                    <input id="inp1" type="text" name="fullName" />
+                </div>
+                <div>
+                    <label>Email Id</label>
+                    <input id="inp2" type="text" name="email" />
+
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input id="inp3" type="text" name="phone" />
+
+                </div>
+                <div>
+                    <button id="adduserSubmitBtn" type="button">Submit</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js" defer> 
+    </script>
+</body>
+
+</html>
